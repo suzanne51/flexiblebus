@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+header, footer {
+    background-color: #80e03e;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.navigation {
+    background-color: #80e03e;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+.nav-list li {
+    margin: 0 10px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.search-li {
+    position: relative;
+}
+
+.search-box {
+    border: 1px solid #007bff;
+    border-radius: 20px;
+    padding: 5px 20px;
+    transition: all 0.3s;
+    width: 100px;
+}
+
+.search-box:focus {
+    width: 200px;
+}
+
+.nav-list a:last-child img {
+    width: 20px;
+    height: auto;
+}
+
+.nav-list a:hover {
+    color: #66cc00;
+}
+
+.slideshow-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.slideshow {
+    display: flex;
+    overflow: hidden;
+    border-radius: 50%;
+    width: 600px;
+    height: 250px;
+}
+
+.slide {
+    flex: 0 0 100%;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.content, .sidebar {
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar {
+    background-color: #80e03e;
+    color: white;
+}
+
+.bus-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    gap: 20px;
+}
+
+.bus {
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex: 0 0 calc(33.3333% - 20px);
+    margin: 10px;
+    position: relative;
+}
+
+.bus img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px 5px 0 0;
+}
+
+.bus p {
+    padding: 10px;
+    text-align: center;
+    background-color: #80e03e;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-radius: 0 0 5px 5px;
+}
+
+#logo img {
+    width: 200px;
+    height: 100px;
+    border-radius: 80%;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+.bus-gallery {
+    text-align: center;
+}
+
+.bus {
+    display: block;
+    margin: 20px 0;
+}
+
+.bus img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+.bus p {
+    margin-top: 10px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.about-intro, .slogan, .objectives, .history, .managers, .video {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.manager {
+    text-align: center;
+}
+
+.manager img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.about-intro, .slogan, .objectives, .history, .managers, .video {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: justify;
+    max-width: 800px;
+    margin: 0 auto;
+    color: black;
+}
+
+.contact-section {
+    text-align: center;
+    max-width: 800px;
+}
+
+.contact-form {
+    text-align: left;
+}
+
+manager {
+    text-align: center;
+}
+
+manager img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 10px;
+}

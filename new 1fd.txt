@@ -1,0 +1,1 @@
+create attractive external css  with lemon green header as well as footer plus gry backgroun and white sections , with horitonat menu white and green while hovering, circular log and curves gallery for images from <!DOCTYPE html>
